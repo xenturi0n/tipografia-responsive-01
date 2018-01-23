@@ -15,7 +15,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
@@ -31,9 +30,6 @@ html {
   -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
-body {
-  line-height: 1; }
-
 ol, ul {
   list-style: none; }
 
@@ -48,3 +44,45 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.2; }
+  @media all and (min-width: 37.5em) {
+    html {
+      font-size: 112.5%;
+      line-height: 1.333; } }
+  @media all and (min-width: 56.25em) {
+    html {
+      font-size: 125%;
+      line-height: 1.5; } }
+  @media all and (min-width: 75em) {
+    html {
+      font-size: 137.5%;
+      line-height: 1.618; } }
+  @media all and (min-width: 112.5em) {
+    html {
+      font-size: 150%;
+      line-height: 1.618; } }
+
+h1 {
+  font-size: 7481.82764rem;
+  line-height: 1.33;
+  font-size: 3.375em; }
+  @media all and (min-width: 37.5em) {
+    h1 {
+      font-size: 3.375rem;
+      line-height: 1.333; } }
+  @media all and (min-width: 56.25em) {
+    h1 {
+      font-size: 3.375rem;
+      line-height: 1.5; } }
+  @media all and (min-width: 75em) {
+    h1 {
+      font-size: 3.375rem;
+      line-height: 1.618; } }
+  @media all and (min-width: 112.5em) {
+    h1 {
+      font-size: 3.375rem;
+      line-height: vr(2); } }
