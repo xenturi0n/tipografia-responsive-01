@@ -1,4 +1,16 @@
-@import 'A_settings/_settings.scss';
+
+
+
+//vendor libraries
+@import '../bower_components/mappy-breakpoints/_mappy-breakpoints.scss';
+@import '../bower_components/modular-scale/stylesheets/_modularscale.scss';
+@import '../bower_components/typi/scss/_typi.scss';
+
+
+
+//structure code
+
+@import './A_settings/_settings.scss';
 @import 'B_tools/_tools.scss';
 @import 'C_generic/_generic.scss';
 @import 'D_elements/_elements.scss';

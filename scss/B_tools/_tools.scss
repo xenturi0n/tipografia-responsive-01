@@ -1,2 +1,63 @@
-@import 'lib/mappy-breakpoints/_mappy-breakpoints.scss';
-@import 'lib/typi/_typi.scss';
+
+// @import './lib/mappy-breakpoints/_mappy-breakpoints.scss';
+// @import './lib/modularscale/_modularscale.scss';
+
+
+// // //libreria para el manejo de tipografia responsive y escalas
+
+// ////
+// /// @author Zell Liew
+// /// @access public
+// /// @group config
+// ////
+
+// $breakpoints: (
+//     sm: 600px,    //for-tablet-portrait-up
+//     m: 900px,   //for-tablet-landscape-up
+//     l: 1200px,           //for-desktop-up
+//     xl: 1800px        //for-big-desktop-up
+// ) !default;
+
+// $typefaces: false !default;
+
+// $typefaces: (
+//      primary: (
+//        font-size-ratio: 1,
+//        stack: (Helvetica, Arial, sans-serif),
+//        weights: (
+//          light: 300,
+//          normal: 400,
+//          bold: 700
+//        ),
+//      )
+//    );
+
+// $typi-ms: (
+//   null: 3,
+//   sm: 1.33,
+//   m: 1.5,
+//   l: 1.2 1.618,
+//   xl: 1.2 1.618
+// );
+
+// $typi: (
+//   base: (
+//     null: (16px, 1.2),
+//     sm: (18px, 1.333),  //for-tablet-portrait-up
+//     m: (20px, 1.5),   //for-tablet-landscape-up
+//     l: (22px, 1.618),          //for-desktop-up
+//     xl: (24px, 1.618)       //for-big-desktop-up
+//   ),
+//   h1: (
+//     null: (ms(22), 1.33),
+//     sm: (ms(3), 1.333),
+//     m: (ms(3), 1.5),
+//     l: (ms(3), 1.618),
+//     xl: (ms(3), vr(2))
+//   )
+// );
+
+// $typi-breakpoint: 'mappy-bp';
+
+// @import './lib/typi/_typi.scss';
+
