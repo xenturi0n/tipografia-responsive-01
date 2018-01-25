@@ -15,7 +15,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
@@ -44,6 +43,14 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600; }
 
 body {
   margin: 0 0.809rem;
@@ -98,126 +105,126 @@ html {
       line-height: 1.618; } }
 
 h1 {
-  font-size: 1.42383rem;
+  font-size: 1.728rem;
   line-height: 1.618rem;
   background: lightblue; }
   @media all and (min-width: 37.5em) {
     h1 {
-      font-size: 1.42383rem;
+      font-size: 1.728rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h1 {
-      font-size: 1.42383rem;
+      font-size: 1.728rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h1 {
-      font-size: 1.42383rem;
+      font-size: 1.728rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h1 {
-      font-size: 1.42383rem;
+      font-size: 1.728rem;
       line-height: 1.618rem; } }
 
 h2 {
-  font-size: 1.26563rem;
+  font-size: 1.44rem;
   line-height: 1.618rem;
   background: lightgoldenrodyellow; }
   @media all and (min-width: 37.5em) {
     h2 {
-      font-size: 1.26563rem;
+      font-size: 1.44rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h2 {
-      font-size: 1.26563rem;
+      font-size: 1.44rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h2 {
-      font-size: 1.26563rem;
+      font-size: 1.44rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h2 {
-      font-size: 1.26563rem;
+      font-size: 1.44rem;
       line-height: 1.618rem; } }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 1.618rem;
   background: lightcoral; }
   @media all and (min-width: 37.5em) {
     h3 {
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h3 {
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h3 {
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h3 {
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       line-height: 1.618rem; } }
 
 h4 {
-  font-size: 0.88889rem;
+  font-size: 0.83333rem;
   line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h4 {
-      font-size: 0.88889rem;
+      font-size: 0.83333rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h4 {
-      font-size: 0.88889rem;
+      font-size: 0.83333rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h4 {
-      font-size: 0.88889rem;
+      font-size: 0.83333rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h4 {
-      font-size: 0.88889rem;
+      font-size: 0.83333rem;
       line-height: 1.618rem; } }
 
 h5 {
-  font-size: 0.79012rem;
+  font-size: 0.69444rem;
   line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h5 {
-      font-size: 0.79012rem;
+      font-size: 0.69444rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h5 {
-      font-size: 0.79012rem;
+      font-size: 0.69444rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h5 {
-      font-size: 0.79012rem;
+      font-size: 0.69444rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h5 {
-      font-size: 0.79012rem;
+      font-size: 0.69444rem;
       line-height: 1.618rem; } }
 
 h6 {
-  font-size: 0.70233rem;
+  font-size: 0.5787rem;
   line-height: 1.618rem; }
   @media all and (min-width: 37.5em) {
     h6 {
-      font-size: 0.70233rem;
+      font-size: 0.5787rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 56.25em) {
     h6 {
-      font-size: 0.70233rem;
+      font-size: 0.5787rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 75em) {
     h6 {
-      font-size: 0.70233rem;
+      font-size: 0.5787rem;
       line-height: 1.618rem; } }
   @media all and (min-width: 112.5em) {
     h6 {
-      font-size: 0.70233rem;
+      font-size: 0.5787rem;
       line-height: 1.618rem; } }
 
 .baseline-grid-debug {

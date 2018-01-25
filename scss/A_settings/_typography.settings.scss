@@ -1,3 +1,4 @@
+$font-family-main: Helvetica, Arial, sans-serif;
 
 $breakpoints: (
     sm: 600px,    //for-tablet-portrait-up
@@ -6,14 +7,55 @@ $breakpoints: (
     xl: 1800px        //for-big-desktop-up
 );
 
-$typefaces: false;
+// Typefaces Map
+// ----------
+/// Contains typefaces that Typi uses.
+/// @prop {Number} font-size-ratio [1] - ratio of font-size to primary font-size
+/// @prop {Map} stack - font stack
+/// @prop {Map} weights - font weights
+/// @example
+///   $typefaces: (
+///     primary: (
+///       font-size-ratio: 1,
+///       stack: (Helvetica, Arial, sans-serif),
+///       weights: (
+///         light: 300,
+///         normal: 400,
+///         bold: 700
+///       ),
+///     )
+///   );
+//@include fw(normal) --> font-weight
+//@include ff(primary) --> font-family
+
+
+$typefaces: (
+  primary:(
+    font-size-ratio: 1,
+    stack: (Arial, Helvetica, sans-serif),
+    weights: (
+      light: 100,
+      normal: 400,
+      bold: 600
+    )
+  ),
+  secondary:(
+    font-size-ratio: 1,
+    stack: (Georgia, 'Times New Roman', Times, serif),
+    weights: (
+      light: 100,
+      normal: 400,
+      bold: 600
+    )
+  )
+);
 
 $typi-ms: (
-  null: (1.125),
-  sm: (1.125),
-  m: (1.125),
-  l: (1.125),
-  xl: (1.125)
+  null: (1.2),
+  sm: (1.2),
+  m: (1.2),
+  l: (1.2),
+  xl: (1.2)
 );
 
 // el valor de $typi base null debe conincidir
