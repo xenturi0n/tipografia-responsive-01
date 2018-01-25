@@ -1,0 +1,76 @@
+
+$breakpoints: (
+    sm: 600px,    //for-tablet-portrait-up
+    m: 900px,   //for-tablet-landscape-up
+    l: 1200px,           //for-desktop-up
+    xl: 1800px        //for-big-desktop-up
+);
+
+$typefaces: false;
+
+$typi-ms: (
+  null: (1.125),
+  sm: (1.125),
+  m: (1.125),
+  l: (1.125),
+  xl: (1.125)
+);
+
+// el valor de $typi base null debe conincidir
+// con el valor en la configuracion por default
+// configurada en el archivo _typi.scss dentro 
+// de bower_components.
+
+$typi: (
+  base: (
+    null: (16px, 1.618),
+    sm: (18px, 1.618),
+    m: (20px, 1.618), 
+    l: (22px, 1.618),          
+    xl: (24px, 1.618)
+  ),
+  h1: (
+    null: (3, vr(1)),
+    sm: (3, vr(1)),
+    m: (3, vr(1)),
+    l: (3, vr(1)),
+    xl: (3, vr(1))
+  ),
+  h2: (
+    null: (2, vr(1)),
+    sm: (2, vr(1)),
+    m: (2, vr(1)),
+    l: (2, vr(1)),
+    xl: (2, vr(1))
+  ),
+  h3: (
+    null: (1, vr(1)),
+    sm: (1, vr(1)),
+    m: (1, vr(1)),
+    l: (1, vr(1)),
+    xl: (1, vr(1))
+  ),
+  h4: (
+    null: (-1, vr(1)),
+    sm: (-1, vr(1)),
+    m: (-1, vr(1)),
+    l: (-1, vr(1)),
+    xl: (-1, vr(1))
+  ),
+  h5: (
+    null: (-2, vr(1)),
+    sm: (-2, vr(1)),
+    m: (-2, vr(1)),
+    l: (-2, vr(1)),
+    xl: (-2, vr(1))
+  ),
+  h6: (
+    null: (-3, vr(1)),
+    sm: (-3, vr(1)),
+    m: (-3, vr(1)),
+    l: (-3, vr(1)),
+    xl: (-3, vr(1))
+  )
+);
+
+$typi-breakpoint: 'mappy-bp';

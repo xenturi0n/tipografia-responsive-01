@@ -1,0 +1,26 @@
+h1{
+     @include typi('h1');
+     background: lightblue;    
+}
+
+h2{
+    @include typi('h2');
+    background: lightgoldenrodyellow   
+}
+
+h3{
+    @include typi('h3');
+    background: lightcoral;   
+}
+
+h4{
+    @include typi('h4');
+}
+
+h5{
+    @include typi('h5');
+}
+
+h6{
+    @include typi('h6');
+}
