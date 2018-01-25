@@ -46,7 +46,36 @@ table {
   border-spacing: 0; }
 
 body {
-  margin: 0 0.809rem; }
+  margin: 0 0.809rem;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 25.888px);
+  background-size: 100% 25.888px;
+  background-position: 0 0; }
+  @media all and (min-width: 600px) {
+    body {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
+      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 29.124px);
+      background-size: 100% 29.124px; } }
+  @media all and (min-width: 900px) {
+    body {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
+      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 32.36px);
+      background-size: 100% 32.36px; } }
+  @media all and (min-width: 1200px) {
+    body {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
+      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 35.596px);
+      background-size: 100% 35.596px; } }
+  @media all and (min-width: 1800px) {
+    body {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
+      background-image: -o-linear-gradient(top, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 1px, transparent 0, transparent 38.832px);
+      background-size: 100% 38.832px; } }
 
 html {
   font-size: 100%;
